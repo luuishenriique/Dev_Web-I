@@ -2,12 +2,14 @@
 	require 'header.php';
 	require 'config.php';
 
-	$data = file('OWN_FILE');
+	$data = file(OWN_FILE);
  ?>
+
+<br>
 
  <?php if(!empty($_GET['msg'])): ?>
  	<div>
- 		<h4><?php echo $_GET['msg'] ?></h4>
+ 		<h4><?= $_GET['msg'] ?></h4>
  	</div>
  <?php endif ?>
 
@@ -28,11 +30,14 @@
  	</tbody>
  </table>
 
+<br>
+
  <form class="form_own" action="add_own.php" method="POST">
  	<fieldset class="main_form">
  		<legend>Inserir novo dono</legend>
  		<input  class="inp" type="text" name="name" placeholder="Nome do dono">
  		<input class="btn" type="submit" value="Registrar">
+ 		<input class="btn" type="reset" value="Limpar">
  	</fieldset>
  </form>
  
