@@ -1,7 +1,7 @@
 <?php 
 	require 'config.php';
 
-	$id = $_GET[$id];
+	$id = $_GET['id'];
 	$data = file(OWN_FILE);
 	unset($data[$id]);
 
