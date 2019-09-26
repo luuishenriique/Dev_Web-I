@@ -13,6 +13,8 @@
 	$pets = array_map('colect', $data);
  ?>
 
+<br>
+
  <table class="info_table">
  	<thead>
  		<tr>
@@ -33,6 +35,10 @@
  		</tr>
  	</tbody>
  </table>
+
+<br>
+
+<h2><a class="main_links" href="pet.php">Retornar</a></h2>
 
 </body>
 </html>
