@@ -1,1 +1,153 @@
-/* nada por enquanto */
+h4{
+	text-align: center;
+	background-color: yellow;
+	color: black;
+	transition: 1s;
+	width: 50%;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+a{	
+	text-decoration: none;
+	color: red;
+}
+
+a:visited{
+	text-decoration: none;
+	color: red;
+}
+.nav_header {
+	overflow: hidden;
+	padding: 10px 10px;
+	background-color: black;
+	font-weight: bold;
+}
+
+.nav_header a{
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+	text-transform: uppercase;
+
+
+}
+
+.nav_header a.logo {
+	background-color: white;
+	border-radius: 5px;
+	color: black;
+	text-transform: uppercase;
+	font-size: 25px;
+	
+}
+
+.nav_header a:hover{
+	background-color: red;
+	color: white;
+	transition: 0.4s;
+}
+
+.nav_header a.active{
+	background-color: #bdc3c7;
+	color: white;
+}
+
+.nav_header .links{
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .nav_header a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .links {
+    float: none;
+  }
+}
+
+table{
+	border-collapse: collapse;
+	overflow-x: auto;
+	margin: 0 auto;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+table a{
+	text-decoration: none;
+}
+
+table a:visited{
+	text-decoration: none;
+}
+
+table a:hover{
+	background-color: black;
+	color: white;
+	transition: 0.4s;
+}
+
+td, th{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	font-size: 20px; 
+}
+
+th{
+	background-color: black;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+form{
+	box-sizing: border-box;
+	width: 35%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+input[type=text]{
+	border: none;
+	border-bottom: 2px solid black;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 45%;
+  text-transform: uppercase;
+}
+
+select{
+	width: 100%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+
+
