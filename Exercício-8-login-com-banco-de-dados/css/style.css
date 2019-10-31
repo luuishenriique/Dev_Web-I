@@ -1,0 +1,49 @@
+.login-h1, .user-h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.login-form{
+	width: 15%;
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+}
+
+.nuser-form{
+	width: 15%;
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+}
+
+.mod-form{
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+}
+
+.info-msg{
+	text-align: center;
+	background: yellow;
+}
+
+.tb-user{
+	border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    padding: 25px 50px;
+    border-color: black;
+    border: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow-x: auto; 
+
+}
+
+.mod-item{
+	margin: auto;
+	text-align: center;
+}
